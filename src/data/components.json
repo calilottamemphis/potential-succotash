@@ -1,0 +1,415 @@
+{
+  "cpus": [
+    {
+      "id": "intel-i3-12100",
+      "name": "Intel Core i3-12100",
+      "brand": "Intel",
+      "socket": "LGA1700",
+      "cores": 4,
+      "threads": 8,
+      "baseClock": 3.3,
+      "boostClock": 4.3,
+      "tdp": 60,
+      "tier": 1,
+      "score": 28,
+      "price": 97
+    },
+    {
+      "id": "intel-i5-12400",
+      "name": "Intel Core i5-12400",
+      "brand": "Intel",
+      "socket": "LGA1700",
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 2.5,
+      "boostClock": 4.4,
+      "tdp": 65,
+      "tier": 2,
+      "score": 42,
+      "price": 185
+    },
+    {
+      "id": "intel-i5-13600k",
+      "name": "Intel Core i5-13600K",
+      "brand": "Intel",
+      "socket": "LGA1700",
+      "cores": 14,
+      "threads": 20,
+      "baseClock": 3.5,
+      "boostClock": 5.1,
+      "tdp": 125,
+      "tier": 3,
+      "score": 65,
+      "price": 290
+    },
+    {
+      "id": "intel-i7-13700k",
+      "name": "Intel Core i7-13700K",
+      "brand": "Intel",
+      "socket": "LGA1700",
+      "cores": 16,
+      "threads": 24,
+      "baseClock": 3.4,
+      "boostClock": 5.4,
+      "tdp": 125,
+      "tier": 4,
+      "score": 78,
+      "price": 400
+    },
+    {
+      "id": "intel-i9-13900k",
+      "name": "Intel Core i9-13900K",
+      "brand": "Intel",
+      "socket": "LGA1700",
+      "cores": 24,
+      "threads": 32,
+      "baseClock": 3.0,
+      "boostClock": 5.8,
+      "tdp": 125,
+      "tier": 5,
+      "score": 95,
+      "price": 550
+    },
+    {
+      "id": "amd-ryzen5-5600",
+      "name": "AMD Ryzen 5 5600",
+      "brand": "AMD",
+      "socket": "AM4",
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 3.5,
+      "boostClock": 4.4,
+      "tdp": 65,
+      "tier": 2,
+      "score": 40,
+      "price": 130
+    },
+    {
+      "id": "amd-ryzen5-7600x",
+      "name": "AMD Ryzen 5 7600X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 4.7,
+      "boostClock": 5.3,
+      "tdp": 105,
+      "tier": 3,
+      "score": 63,
+      "price": 250
+    },
+    {
+      "id": "amd-ryzen7-7700x",
+      "name": "AMD Ryzen 7 7700X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 4.5,
+      "boostClock": 5.4,
+      "tdp": 105,
+      "tier": 4,
+      "score": 76,
+      "price": 360
+    },
+    {
+      "id": "amd-ryzen9-7950x",
+      "name": "AMD Ryzen 9 7950X",
+      "brand": "AMD",
+      "socket": "AM5",
+      "cores": 16,
+      "threads": 32,
+      "baseClock": 4.5,
+      "boostClock": 5.7,
+      "tdp": 170,
+      "tier": 5,
+      "score": 97,
+      "price": 700
+    }
+  ],
+  "gpus": [
+    {
+      "id": "nvidia-gtx-1660s",
+      "name": "NVIDIA GTX 1660 Super",
+      "brand": "NVIDIA",
+      "vram": 6,
+      "tier": 1,
+      "score": 25,
+      "tdp": 125,
+      "price": 200
+    },
+    {
+      "id": "nvidia-rtx-3060",
+      "name": "NVIDIA RTX 3060",
+      "brand": "NVIDIA",
+      "vram": 12,
+      "tier": 2,
+      "score": 42,
+      "tdp": 170,
+      "price": 330
+    },
+    {
+      "id": "nvidia-rtx-3070",
+      "name": "NVIDIA RTX 3070",
+      "brand": "NVIDIA",
+      "vram": 8,
+      "tier": 3,
+      "score": 58,
+      "tdp": 220,
+      "price": 500
+    },
+    {
+      "id": "nvidia-rtx-4070",
+      "name": "NVIDIA RTX 4070",
+      "brand": "NVIDIA",
+      "vram": 12,
+      "tier": 4,
+      "score": 72,
+      "tdp": 200,
+      "price": 600
+    },
+    {
+      "id": "nvidia-rtx-4080",
+      "name": "NVIDIA RTX 4080",
+      "brand": "NVIDIA",
+      "vram": 16,
+      "tier": 5,
+      "score": 88,
+      "tdp": 320,
+      "price": 1200
+    },
+    {
+      "id": "nvidia-rtx-4090",
+      "name": "NVIDIA RTX 4090",
+      "brand": "NVIDIA",
+      "vram": 24,
+      "tier": 6,
+      "score": 100,
+      "tdp": 450,
+      "price": 1600
+    },
+    {
+      "id": "amd-rx-6700xt",
+      "name": "AMD RX 6700 XT",
+      "brand": "AMD",
+      "vram": 12,
+      "tier": 2,
+      "score": 44,
+      "tdp": 230,
+      "price": 380
+    },
+    {
+      "id": "amd-rx-7800xt",
+      "name": "AMD RX 7800 XT",
+      "brand": "AMD",
+      "vram": 16,
+      "tier": 4,
+      "score": 70,
+      "tdp": 263,
+      "price": 500
+    }
+  ],
+  "rams": [
+    {
+      "id": "ddr4-8gb",
+      "name": "8 GB DDR4",
+      "capacity": 8,
+      "type": "DDR4",
+      "speed": 3200,
+      "tier": 1,
+      "score": 20,
+      "price": 25
+    },
+    {
+      "id": "ddr4-16gb",
+      "name": "16 GB DDR4",
+      "capacity": 16,
+      "type": "DDR4",
+      "speed": 3200,
+      "tier": 2,
+      "score": 40,
+      "price": 45
+    },
+    {
+      "id": "ddr4-32gb",
+      "name": "32 GB DDR4",
+      "capacity": 32,
+      "type": "DDR4",
+      "speed": 3600,
+      "tier": 3,
+      "score": 60,
+      "price": 80
+    },
+    {
+      "id": "ddr5-16gb",
+      "name": "16 GB DDR5",
+      "capacity": 16,
+      "type": "DDR5",
+      "speed": 5600,
+      "tier": 3,
+      "score": 55,
+      "price": 70
+    },
+    {
+      "id": "ddr5-32gb",
+      "name": "32 GB DDR5",
+      "capacity": 32,
+      "type": "DDR5",
+      "speed": 6000,
+      "tier": 4,
+      "score": 75,
+      "price": 120
+    },
+    {
+      "id": "ddr5-64gb",
+      "name": "64 GB DDR5",
+      "capacity": 64,
+      "type": "DDR5",
+      "speed": 6000,
+      "tier": 5,
+      "score": 90,
+      "price": 230
+    }
+  ],
+  "storages": [
+    {
+      "id": "hdd-1tb",
+      "name": "1 TB HDD",
+      "capacity": 1024,
+      "type": "HDD",
+      "readSpeed": 160,
+      "tier": 1,
+      "score": 10,
+      "price": 40
+    },
+    {
+      "id": "sata-ssd-500gb",
+      "name": "500 GB SATA SSD",
+      "capacity": 500,
+      "type": "SATA SSD",
+      "readSpeed": 550,
+      "tier": 2,
+      "score": 30,
+      "price": 55
+    },
+    {
+      "id": "nvme-1tb",
+      "name": "1 TB NVMe SSD",
+      "capacity": 1024,
+      "type": "NVMe SSD",
+      "readSpeed": 3500,
+      "tier": 3,
+      "score": 60,
+      "price": 80
+    },
+    {
+      "id": "nvme-2tb",
+      "name": "2 TB NVMe SSD",
+      "capacity": 2048,
+      "type": "NVMe SSD",
+      "readSpeed": 7000,
+      "tier": 4,
+      "score": 80,
+      "price": 160
+    }
+  ],
+  "psus": [
+    {
+      "id": "psu-550w",
+      "name": "550W Bronze PSU",
+      "wattage": 550,
+      "rating": "80+ Bronze",
+      "tier": 1,
+      "score": 30,
+      "price": 60
+    },
+    {
+      "id": "psu-650w",
+      "name": "650W Gold PSU",
+      "wattage": 650,
+      "rating": "80+ Gold",
+      "tier": 2,
+      "score": 50,
+      "price": 90
+    },
+    {
+      "id": "psu-750w",
+      "name": "750W Gold PSU",
+      "wattage": 750,
+      "rating": "80+ Gold",
+      "tier": 3,
+      "score": 65,
+      "price": 110
+    },
+    {
+      "id": "psu-850w",
+      "name": "850W Platinum PSU",
+      "wattage": 850,
+      "rating": "80+ Platinum",
+      "tier": 4,
+      "score": 80,
+      "price": 150
+    },
+    {
+      "id": "psu-1000w",
+      "name": "1000W Platinum PSU",
+      "wattage": 1000,
+      "rating": "80+ Platinum",
+      "tier": 5,
+      "score": 95,
+      "price": 200
+    }
+  ],
+  "motherboards": [
+    {
+      "id": "b660m",
+      "name": "MSI B660M PRO-A",
+      "socket": "LGA1700",
+      "formFactor": "mATX",
+      "supportedRam": ["DDR4"],
+      "tier": 1,
+      "score": 30,
+      "price": 110
+    },
+    {
+      "id": "z690",
+      "name": "ASUS ROG STRIX Z690-F",
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "supportedRam": ["DDR5"],
+      "tier": 3,
+      "score": 65,
+      "price": 300
+    },
+    {
+      "id": "b650",
+      "name": "ASUS Prime B650M-A",
+      "socket": "AM5",
+      "formFactor": "mATX",
+      "supportedRam": ["DDR5"],
+      "tier": 2,
+      "score": 45,
+      "price": 165
+    },
+    {
+      "id": "x670e",
+      "name": "ASUS ROG CROSSHAIR X670E",
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "supportedRam": ["DDR5"],
+      "tier": 5,
+      "score": 90,
+      "price": 600
+    },
+    {
+      "id": "b550",
+      "name": "MSI MAG B550 TOMAHAWK",
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "supportedRam": ["DDR4"],
+      "tier": 2,
+      "score": 40,
+      "price": 140
+    }
+  ]
+}

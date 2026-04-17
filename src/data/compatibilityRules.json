@@ -1,0 +1,69 @@
+{
+  "socketCompatibility": {
+    "LGA1700": ["b660m", "z690", "z790"],
+    "AM4": ["b550", "x570"],
+    "AM5": ["b650", "x670e"]
+  },
+  "ramCompatibility": {
+    "LGA1700": {
+      "b660m": ["DDR4"],
+      "z690": ["DDR5"],
+      "z790": ["DDR5"]
+    },
+    "AM4": {
+      "b550": ["DDR4"],
+      "x570": ["DDR4"]
+    },
+    "AM5": {
+      "b650": ["DDR5"],
+      "x670e": ["DDR5"]
+    }
+  },
+  "psuRequirements": {
+    "minimumHeadroom": 100,
+    "tiers": {
+      "entry": { "maxTDP": 400, "minWattage": 550 },
+      "mid": { "maxTDP": 550, "minWattage": 650 },
+      "high": { "maxTDP": 700, "minWattage": 750 },
+      "enthusiast": { "maxTDP": 850, "minWattage": 850 },
+      "extreme": { "maxTDP": 1000, "minWattage": 1000 }
+    }
+  },
+  "bottleneckThresholds": {
+    "severe": 25,
+    "moderate": 15,
+    "mild": 8
+  },
+  "usageWeights": {
+    "gaming": {
+      "cpu": 0.3,
+      "gpu": 0.5,
+      "ram": 0.1,
+      "storage": 0.1
+    },
+    "workstation": {
+      "cpu": 0.5,
+      "gpu": 0.25,
+      "ram": 0.2,
+      "storage": 0.05
+    },
+    "streaming": {
+      "cpu": 0.4,
+      "gpu": 0.35,
+      "ram": 0.15,
+      "storage": 0.1
+    },
+    "video_editing": {
+      "cpu": 0.35,
+      "gpu": 0.3,
+      "ram": 0.25,
+      "storage": 0.1
+    },
+    "general": {
+      "cpu": 0.3,
+      "gpu": 0.2,
+      "ram": 0.3,
+      "storage": 0.2
+    }
+  }
+}
